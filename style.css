@@ -1,0 +1,132 @@
+body {
+  /* background-image: url("images/concrete-texture.png"); */
+  /* background-image: url("images/agsquare.png"); */
+  background-image: url("images/p5.png");
+  /* background: linear-gradient(to right, #b06ab3, #4568dc); */
+  /* background-color: #5a5a5a; */
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+/* --------- tool section -----------*/
+
+.main {
+  text-align: center;
+  overflow: hidden;
+  top: 150px;
+  position: absolute;
+  margin-top: 3%;
+  margin: 0 auto;
+  margin-left: 50%;
+  background-color: #ffffff;
+  /* background-image: url("images/p5.png"); */
+  /* background: linear-gradient(to right, #1f1d1f, #3e549e); */
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  height: 700px;
+  width: 700px;
+}
+
+.header-text img {
+  margin-top: 2%;
+  height: 85px;
+}
+
+.mapo {
+  top: 0%;
+  position: absolute;
+  left: 5%;
+}
+
+.routes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  margin-top: 3%;
+}
+
+.line-name {
+  text-align: center;
+  font-size: 20px;
+  /* border-bottom: 3px solid red; */
+}
+
+li {
+  visibility: hidden;
+  /* text-align: center; */
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.red-line {
+  border-bottom: 3px solid red;
+}
+
+.blue-line {
+  border-bottom: 3px solid blue;
+}
+
+.green-line {
+  border-bottom: 3px solid green;
+}
+
+.gold-line {
+  border-bottom: 3px solid gold;
+}
+
+#b2PTF6lHdC {
+  stroke-dasharray: 545;
+  stroke-dashoffset: -545;
+  animation: dash 4s linear infinite;
+  /* animation-delay: 1s; */
+}
+
+#aMkbum4Nd {
+  stroke-dasharray: 437;
+  stroke-dashoffset: -437;
+  animation: dash 4s linear infinite;
+  /* animation-delay: 1s; */
+}
+
+#e2pYLaai2c {
+  stroke-dasharray: 372;
+  stroke-dashoffset: -372;
+  animation: dash 4s linear infinite;
+  /* animation-delay: 1s; */
+}
+
+#a4kMFv2ZrW {
+  stroke-dasharray: 247;
+  stroke-dashoffset: -247;
+  animation: dash 4s linear infinite;
+  /* animation-delay: 1s; */
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* svg {
+  height: 800px;
+  left: -100px;
+  position: relative;
+}
+
+#a2zU4pxSq8, #jzBxlKKY4, #aihNAE5HB, #bijzkvWWt, #a1kPH6qs9k, #bhkF4RiW, #a22JOEqj3, #cQOyV3aTQ, #auz20nwpr, #e1PVFVGX1y, #b2Gnn0cJz9, #l4vmPj1Ve, #fCIeJR3An, #f2ziO4LPKp {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: -1600;
+  animation: dash 3s ease-in-out forwards;
+  /* animation-delay: 1s; */
+
+/*
+
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+*/
