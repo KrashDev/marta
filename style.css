@@ -19,11 +19,12 @@ body {
   margin: 0 auto;
   margin-left: 50%;
   background-color: #ffffff;
+  /* border: 2px solid #5a5a5a; */
   /* background-image: url("images/p5.png"); */
   /* background: linear-gradient(to right, #1f1d1f, #3e549e); */
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  height: 700px;
-  width: 700px;
+  height: 650px;
+  width: 650px;
 }
 
 .header-text img {
@@ -71,6 +72,10 @@ li {
 
 .gold-line {
   border-bottom: 3px solid gold;
+}
+
+.marta-map {
+  margin-left: 4%;
 }
 
 #b2PTF6lHdC {
